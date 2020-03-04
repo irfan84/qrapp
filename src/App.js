@@ -48,7 +48,7 @@ class App extends Component {
                 <Navigation/>
 
                 <QrReader
-                    facingMode='rear'
+                    facingMode={'environment'}
                     delay={300}
                     onError={this.handleError}
                     onScan={this.handleScan}
